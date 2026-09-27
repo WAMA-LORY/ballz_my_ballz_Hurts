@@ -138,7 +138,9 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_SjnbtnActionPerformed
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
-javax.swing.JOptionPane.showMessageDialog(this, "GoodBye:3", "ByeBye:3", javax.swing.JOptionPane.PLAIN_MESSAGE);
+   javax.swing.ImageIcon icon = new javax.swing.ImageIcon("C:\\Users\\john aldred\\Downloads\\tenor.gif");
+        javax.swing.JOptionPane.showMessageDialog(this, "GoodBye:3", "ByeBye:3", javax.swing.JOptionPane.PLAIN_MESSAGE,icon);
+
     }//GEN-LAST:event_formWindowClosing
 
     /**
