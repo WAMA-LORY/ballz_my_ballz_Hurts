@@ -378,7 +378,7 @@ public class Main extends javax.swing.JFrame {
             tibol.setValueAt(tat, idx, 4);
             tibol.setValueAt(wt, idx, 5);
 
-            processLine = processLine + "[P" + (idx + 1) + "]   ";
+            processLine = processLine + "[P" + (idx + 1) + "]     ";
             timeLine = timeLine + completion + "        ";
 
             currentTime = completion;

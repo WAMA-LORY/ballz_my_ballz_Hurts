@@ -162,9 +162,14 @@ public class SJN extends javax.swing.JFrame {
     }
 
     // 2D Array: [rowCount][8]
-    // [i][0]: Process ID | [i][1]: Arrival Time | [i][2]: Burst Time
-    // [i][3]: Start Time | [i][4]: Waiting Time | [i][5]: Done Flag
-    // [i][6]: Completion Time (CT)              | [i][7]: Turnaround Time (TAT)
+    //[i][0]: Process ID 
+    //[i][1]: Arrival Time 
+    //[i][2]: Burst Time
+    //[i][3]: Start Time 
+    //[i][4]: Waiting Time
+    //[i][5]: Done Flag
+    //[i][6]: Completion Time (CT)
+    //[i][7]: Turnaround Time (TAT)
 int[][] proc = new int[rowCount][8];
 
     // 1. Read table inputs
